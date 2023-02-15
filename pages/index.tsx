@@ -11,7 +11,7 @@ export default function Home(props: { theme: any }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/metaIcon.png" />
       </Head>
-      <main>
+      <main className='bg-[#202023] h-full'>
         <HomePage theme={props.theme}/>
       </main>
     </>

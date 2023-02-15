@@ -15,7 +15,7 @@ const Navbar = (props: { onSubmit: (arg0: string) => void }) => {
   }, [mode])
   
   return (
-    <div className='flex md:px-10 py-5 bg-gray-800 justify-between items-center'>
+    <div className='flex md:px-10 py-5 bg-[#202023] justify-between items-center text-white'>
       <div className="logo md:mx-10 w-8 mx-3 flex space-x-2 items-center">
         <img src="/metaIcon.png" alt="" />
         <button className='font-mono text-xl'><Link href={'/'}>MetaWave</Link></button>
