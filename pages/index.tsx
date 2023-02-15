@@ -2,7 +2,7 @@ import HomePage from '@/components/HomePage'
 import Head from 'next/head'
 import Image from 'next/image'
 
-export default function Home() {
+export default function Home(props: { theme: any }) {
   return (
     <>
       <Head>
@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/metaIcon.png" />
       </Head>
       <main>
-        {/* <HomePage/> */}
+        <HomePage theme={props.theme}/>
       </main>
     </>
   )
