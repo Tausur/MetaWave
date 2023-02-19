@@ -15,6 +15,6 @@ export default function App({ Component, pageProps }: AppProps) {
   return <div>
     <Navbar onSubmit={getData}/>
     <Component {...pageProps} theme={mode}/>
-    {/* <Footer/> */}
+    <Footer/>
   </div>
 }
