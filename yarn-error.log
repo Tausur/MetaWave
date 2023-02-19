@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\legen\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-typical
+  C:\Program Files\nodejs\node.exe C:\Users\legen\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add mongoose
 
 PATH: 
   C:\Users\legen\AppData\Local\oh-my-posh;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Neovim\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;;C:\TDM-GCC-64\bin;C:\Users\legen\scoop\shims;C:\Users\legen\AppData\Local\Microsoft\WindowsApps;C:\Users\legen\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\legen\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Users\legen\AppData\Local\Programs\oh-my-posh\bin;C:\Program Files\Git\bin;
@@ -39,6 +39,7 @@ npm manifest:
       "react-dom": "18.2.0",
       "react-icons": "^4.7.1",
       "react-typewriter-effect": "^1.1.0",
+      "react-typical": "^0.1.3",
       "typescript": "4.9.5",
       "typewriter-effect": "^2.19.0"
     },
@@ -63,6 +64,11 @@ Lockfile:
     "version" "7.20.13"
     dependencies:
       "regenerator-runtime" "^0.13.11"
+  
+  "@camwiegert/typical@^0.1.1":
+    "integrity" "sha512-4xAtH3F3uJ8boe9IPahdYFCBELmyOBwHGAn0rDO6C1rx0TuZb5f4UqfuiOQF7YiMJGCOsUIW7LyucMNnVQYsRg=="
+    "resolved" "https://registry.npmjs.org/@camwiegert/typical/-/typical-0.1.1.tgz"
+    "version" "0.1.1"
   
   "@eslint/eslintrc@^1.4.1":
     "integrity" "sha512-XXrH9Uarn0stsyldqDYq8r++mROmWRI1xKMXa640Bb//SY1+ECYX6VzT6Lcx5frD0V30XieqJ0oX9I2Xj5aoMA=="
@@ -3359,7 +3365,7 @@ Lockfile:
     "resolved" "https://registry.npmjs.org/promise-inflight/-/promise-inflight-1.0.1.tgz"
     "version" "1.0.1"
   
-  "prop-types@^15.6.2", "prop-types@^15.8.1":
+  "prop-types@^15.5.4", "prop-types@^15.6.2", "prop-types@^15.8.1":
     "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
     "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
     "version" "15.8.1"
@@ -3467,7 +3473,7 @@ Lockfile:
       "randombytes" "^2.0.5"
       "safe-buffer" "^5.1.0"
   
-  "react-dom@^17.x || ^18.x", "react-dom@^18.2.0", "react-dom@18.2.0":
+  "react-dom@^15.0.0 || ^16.0.0", "react-dom@^17.x || ^18.x", "react-dom@^18.2.0", "react-dom@18.2.0":
     "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
     "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
     "version" "18.2.0"
@@ -3494,7 +3500,14 @@ Lockfile:
       "style-loader" "^1.0.0"
       "webpack" "^4.41.2"
   
-  "react@*", "react@^17.x || ^18.x", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.2.0":
+  "react-typical@^0.1.3":
+    "integrity" "sha512-VynIYVQvAZ1Nco4C+QNEqR17STGK/xw6Dc1zNj/LuYm8fISw1Qp3q9n3hv6O3iQDLD0OWwdWKHun5oj6mCMB4A=="
+    "resolved" "https://registry.npmjs.org/react-typical/-/react-typical-0.1.3.tgz"
+    "version" "0.1.3"
+    dependencies:
+      "@camwiegert/typical" "^0.1.1"
+  
+  "react@*", "react@^15.0.0 || ^16.0.0", "react@^17.x || ^18.x", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.2.0":
     "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
     "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
     "version" "18.2.0"
