@@ -15,7 +15,7 @@ const Posts = (props) => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-white">
 
             {props.blogs.map((blog)=>{
-              return <div className="shadow-lg rounded-lg overflow-hidden">
+              return <div className="shadow-lg rounded-lg overflow-hidden" key={blog._id}>
               <Link href='/Blogs/blog1'>
                 <img src={blog.image} alt="" className="block w-full h-48 bg-gray-400"/>
               </Link>
